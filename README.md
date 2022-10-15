@@ -1,7 +1,7 @@
 # rails-champ
 Цифровой прорыв - чемпионат Новосибирской области - классификация объектов железной дороги
 
-Методы предобработки и ресемплинга датасета + Classic ML from sklearn: Rails.ipynb
+Методы предобработки и ресемплинга датасета + Classic ML from sklearn: rails.ipynb
 
 Нейросетевое решение с помощью pytorch: NeuroRails.ipynb
 

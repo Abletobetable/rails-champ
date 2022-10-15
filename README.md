@@ -1,7 +1,7 @@
 # rails-champ
 Цифровой прорыв - чемпионат Новосибирской области - классификация объектов железной дороги
 
-Методы предобработки и ресемплинга датасета + Classic ML from sklearn: rails.ipynb
+## Методы предобработки и ресемплинга датасета + Classic ML from sklearn: rails.ipynb
 
 использованные методы ресемплинга:
 
@@ -9,7 +9,7 @@ RandomUnderSampler + SMOTE/ADASYN
 
 best models: RandomForest(bootstrap=False, estimators=1000), MLP(layers=(256, 128, 64, 32, 16, , max_iter = 2000)
 
-Нейросетевое решение с помощью pytorch: NeuroRails.ipynb
+## Нейросетевое решение с помощью pytorch: NeuroRails.ipynb
 
 такой же ресемплинг
 

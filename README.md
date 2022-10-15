@@ -15,12 +15,11 @@ best models: RandomForest(bootstrap=False, estimators=1000), MLP(layers=(256, 12
 
 model:
 
-model =  nn.Sequential(
     nn.Linear(4, 256), nn.Dropout(0.01), nn.BatchNorm1d(256), nn.ReLU(),        
     nn.Linear(256, 128), nn.Dropout(0.01), nn.BatchNorm1d(128), nn.ReLU(), 
     nn.Linear(128, 64), nn.Dropout(0.01), nn.BatchNorm1d(64), nn.ReLU(),  
     nn.Linear(64, 32), nn.Dropout(0.01), nn.BatchNorm1d(32), nn.ReLU(),  
-    nn.Linear(32, H16), nn.Dropout(0.01), nn.BatchNorm1d(16), nn.ReLU(),  
+    nn.Linear(32, 16), nn.Dropout(0.01), nn.BatchNorm1d(16), nn.ReLU(),  
     nn.Linear(16, 6), nn.Dropout(0.01), nn.BatchNorm1d(6)) 
     
 loss: CrossEntropyLoss
